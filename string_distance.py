@@ -2,6 +2,7 @@
 #AngelicaKula
 #2025-25-06
 #Description: A function that takes two arguments and returns a dictionary
+
 from fuzzywuzzy import fuzz
 
 def string_distance(list_of_strings, target_string):
@@ -13,10 +14,13 @@ def string_distance(list_of_strings, target_string):
     return result
 
 #---Test Function---
-my_list_of_strings = ["A", "B", "C", "D", "E", "F"]
-target_string = "A"
+my_list_of_strings = ['A', 'B', 'C', 'D', 'E', 'F']
+target_string = 'A'
 
 #---Print Result---
 result = string_distance(my_list_of_strings, target_string)
 print(result)
+
+
+
 
